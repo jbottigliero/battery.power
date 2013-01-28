@@ -11,6 +11,6 @@ art direction & music production: dan cortes [@ddggccaa](https://twitter.com/ddg
 
 windows team: percy hatcherson [@primitive-type](https://github.com/primitive-type)
 
-highscore: joe bottigliero [@jbottigliero]((https://github.com/jbottigliero)
+highscore: joe bottigliero [@jbottigliero](https://github.com/jbottigliero)
 
 server based on [@kumar303's](https://github.com/kumar303/) [fxos-demo](https://github.com/kumar303/fxos-demo)
