@@ -48,6 +48,11 @@ var Application =  {
         .append('<img src="assets/images/batty.gif" />')
         .append('<img src="assets/images/batty.gif" />')
         .append('<br/><h1><marquee><blink>new highscore!</blink></marquee></h1>')
+        .append('<img src="assets/images/batty.gif" />')
+        .append('<img src="assets/images/batty.gif" />')
+        .append('<img src="assets/images/batty.gif" />')
+        .append('<img src="assets/images/batty.gif" />')
+        .append('<img src="assets/images/batty.gif" />')
     );
     
     document.getElementsByTagName('audio')[0].play();
@@ -73,7 +78,7 @@ var Application =  {
   initView: function(message){
     $('#content')
       .html(message)
-      .append('<h3>your latest highscore: '+this.getHighscore()+'</h3>');
+      .append('<h3>your latest highscore: '+(this.getHighscore() * 100) + '%</h3>');
   },
 }
 
