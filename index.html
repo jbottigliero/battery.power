@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>battery power</title>
+
+    <!-- <link rel="stylesheet" type="text/css" href="shared/headers.css"> -->
+    <link rel="stylesheet" type="text/css" href="assets/styles/gaia/widgets/headers.css">
+  </head>
+
+  <body> 
+    <style>
+      @import url("assets/styles/gaia/fonts.css");
+
+      html, body {
+        height: 100%;
+        margin: 0;
+        font-size:14px;
+        font-family: "Open Sans", sans-serif;
+      }
+
+      #newhighscore {
+          text-align: center;
+          color:  red;
+      }
+
+  </style>
+
+    <audio src="assets/audio/highscore.wav" preload="auto" autobuffer loop></audio>
+
+    <section role="region" class="skin-organic">
+      <header>
+        <h1>battery power</h1>
+      </header>
+      <header>
+        <h2>lose power, win prizes*!</h2>
+      </header>
+    </section>
+    
+    <section id="content"></section>
+
+  </body>
+  <script src="battery.power/vendor/jquery.min.js"></script>
+  <script src="battery.power/js/main.js"></script>
+</html>

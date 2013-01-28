@@ -1,0 +1,12 @@
+{
+  "version": "0.1",
+  "name": "battery power",
+  "description": "lose power, win prizes*!",
+  "icons": {
+    "16":   "/assets/images/icon/icon-16.png",
+    "48":   "/assets/images/icon/icon-48.png",
+    "128":  "/assets/images/icon/icon-128.png"
+  },
+  "launch_path": "index.html",
+  "installs_allowed_from": ["*"]
+}

@@ -1,0 +1,3 @@
+[submodule "assets/styles/gaia"]
+	path = assets/styles/gaia
+	url = https://github.com/mozilla-b2g/Gaia-UI-Building-Blocks
